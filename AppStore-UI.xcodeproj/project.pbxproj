@@ -13,6 +13,10 @@
 		5C400A5A287E78AA000C4444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C400A58287E78AA000C4444 /* Main.storyboard */; };
 		5C400A5C287E78AC000C4444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C400A5B287E78AC000C4444 /* Assets.xcassets */; };
 		5C400A5F287E78AC000C4444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C400A5D287E78AC000C4444 /* LaunchScreen.storyboard */; };
+		5C400A67287E78E7000C4444 /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C400A66287E78E6000C4444 /* appstore.json */; };
+		5C400A69287E8553000C4444 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C400A68287E8553000C4444 /* Section.swift */; };
+		5C400A6B287E856B000C4444 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C400A6A287E856B000C4444 /* App.swift */; };
+		5C400A6D287E8708000C4444 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C400A6C287E8708000C4444 /* Bundle+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5C400A5B287E78AC000C4444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C400A5E287E78AC000C4444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C400A60287E78AC000C4444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C400A66287E78E6000C4444 /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
+		5C400A68287E8553000C4444 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		5C400A6A287E856B000C4444 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		5C400A6C287E8708000C4444 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				5C400A52287E78AA000C4444 /* AppDelegate.swift */,
 				5C400A54287E78AA000C4444 /* SceneDelegate.swift */,
 				5C400A56287E78AA000C4444 /* ViewController.swift */,
+				5C400A66287E78E6000C4444 /* appstore.json */,
+				5C400A68287E8553000C4444 /* Section.swift */,
+				5C400A6A287E856B000C4444 /* App.swift */,
+				5C400A6C287E8708000C4444 /* Bundle+Ext.swift */,
 				5C400A58287E78AA000C4444 /* Main.storyboard */,
 				5C400A5B287E78AC000C4444 /* Assets.xcassets */,
 				5C400A5D287E78AC000C4444 /* LaunchScreen.storyboard */,
@@ -128,6 +140,7 @@
 				5C400A5F287E78AC000C4444 /* LaunchScreen.storyboard in Resources */,
 				5C400A5C287E78AC000C4444 /* Assets.xcassets in Resources */,
 				5C400A5A287E78AA000C4444 /* Main.storyboard in Resources */,
+				5C400A67287E78E7000C4444 /* appstore.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C400A6B287E856B000C4444 /* App.swift in Sources */,
 				5C400A57287E78AA000C4444 /* ViewController.swift in Sources */,
+				5C400A69287E8553000C4444 /* Section.swift in Sources */,
+				5C400A6D287E8708000C4444 /* Bundle+Ext.swift in Sources */,
 				5C400A53287E78AA000C4444 /* AppDelegate.swift in Sources */,
 				5C400A55287E78AA000C4444 /* SceneDelegate.swift in Sources */,
 			);
