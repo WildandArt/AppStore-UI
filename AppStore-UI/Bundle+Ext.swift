@@ -21,8 +21,8 @@ extension Bundle{
         do {
             return try decoder.decode(T.self, from: data)
         }
-        catch DecodingError.typeMismatch(_, let context){
-            fatalError("type mismatch : \(context.debugDescription)")
+        catch DecodingError.typeMismatch(let type, let context){
+            fatalError("type: \(type) type mismatch : \(context.debugDescription)")
         }
         catch DecodingError.valueNotFound(let type, let context){
             fatalError("value of type \(type), from file \(context.debugDescription) not found")

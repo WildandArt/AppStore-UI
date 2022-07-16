@@ -12,6 +12,6 @@ struct Section : Codable, Hashable{
     let type : String
     let title : String
     let subtitle : String
-    let apps : [App]
+    let items : [App]
 
 }

@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct App{
-    let id : String
+struct App : Codable, Hashable{
+    let id : Int
     let tagline : String
     let name : String
     let subheading : String
